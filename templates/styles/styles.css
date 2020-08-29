@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Quicksand:wght@300&display=swap');
+
+/* Global CSS Variables */
+:root {
+    --colors-brown: #602e30;
+    --colors-grey: #231f20;
+    --colors-light-grey: rgba(154,162,174,.5);
+    --colors-blue: #296c9f;
+
+    --fonts-primary: 'Oswald', sans-serif;
+    --fonts-secondary: 'Quicksand', sans-serif;
+}
+
+
+html,
+body {
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+    height: 100%;
+    font-family: var(--fonts-secondary)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--colors-grey);
+}
+
+h1 {
+    margin: 0;
+    font-family: var(--fonts-primary);
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+a {
+    color: var(--colors-blue);
+}
+
+nav {
+    width: 100vw;
+    padding: 15px;
+    background: #272727;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35);
+    z-index: 99;
+}
+
+
+
+.container {
+    max-width: 960px;
+    padding: 100px 60px;
+    margin: 0 auto;
+}
+
+/* Team Member Section */
+
+#team-members {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 300px);
+    align-items: stretch;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--colors-light-grey);
+    border-bottom: 3px solid #9aa2ae;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+    transform: scale(1.025);
+}
+
+.member-img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.member-name {
+    color: var(--colors-brown);
+    font-family: var(--fonts-primary);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-bottom: -10px;
+    letter-spacing: 0.5px;
+}
+
+.member-title {
+    font-size: 0.95rem;
+}
+
+
+@media only screen and (max-width: 950px)  {
+    #team-members {
+        margin: 0 auto;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: 300px;
+    }
+}

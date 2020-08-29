@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 22a4cb8c-09d7-4561-adf3-5b4ad79ba412
+handle: positionTitle
+instructions: 'Enter your professional title'
+name: 'Position Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: 'e.g. Co-Chair, Party Planning Committee'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

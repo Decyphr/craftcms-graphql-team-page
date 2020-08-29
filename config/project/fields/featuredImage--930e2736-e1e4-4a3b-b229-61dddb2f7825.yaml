@@ -1,0 +1,29 @@
+contentColumnType: string
+fieldGroup: 22a4cb8c-09d7-4561-adf3-5b4ad79ba412
+handle: featuredImage
+instructions: 'Showoff the best photo of yourself here'
+name: 'Featured Image'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowedKinds: null
+  defaultUploadLocationSource: 'volume:a64f316c-5b0e-43c1-b6ef-a5cd1fb197dc'
+  defaultUploadLocationSubpath: /assets/images
+  limit: '1'
+  localizeRelations: false
+  restrictFiles: ''
+  selectionLabel: 'Add your photo here'
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  singleUploadLocationSource: 'volume:a64f316c-5b0e-43c1-b6ef-a5cd1fb197dc'
+  singleUploadLocationSubpath: '{slug}'
+  source: null
+  sources: '*'
+  targetSiteId: null
+  useSingleFolder: true
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

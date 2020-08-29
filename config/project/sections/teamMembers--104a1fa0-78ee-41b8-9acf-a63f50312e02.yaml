@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: teamMembers
+name: 'Team Members'
+propagationMethod: all
+siteSettings:
+  22f88c31-2127-426d-903e-4bbe1b4cf9c6:
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: 'team-members/{slug}'
+type: channel

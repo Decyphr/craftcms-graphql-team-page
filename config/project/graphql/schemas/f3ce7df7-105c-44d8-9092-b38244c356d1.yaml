@@ -1,0 +1,16 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sections.104a1fa0-78ee-41b8-9acf-a63f50312e02:read'
+  - 'entrytypes.3a773fd2-1bd1-42ba-8dc1-932dbd417b7e:read'
+  - 'volumes.a64f316c-5b0e-43c1-b6ef-a5cd1fb197dc:read'
+  - 'usergroups.everyone:read'
+  - 'sections.104a1fa0-78ee-41b8-9acf-a63f50312e02:edit'
+  - 'entrytypes.3a773fd2-1bd1-42ba-8dc1-932dbd417b7e:edit'
+  - 'entrytypes.3a773fd2-1bd1-42ba-8dc1-932dbd417b7e:create'
+  - 'entrytypes.3a773fd2-1bd1-42ba-8dc1-932dbd417b7e:save'
+  - 'entrytypes.3a773fd2-1bd1-42ba-8dc1-932dbd417b7e:delete'
+  - 'volumes.a64f316c-5b0e-43c1-b6ef-a5cd1fb197dc:edit'
+  - 'volumes.a64f316c-5b0e-43c1-b6ef-a5cd1fb197dc:create'
+  - 'volumes.a64f316c-5b0e-43c1-b6ef-a5cd1fb197dc:save'
+  - 'volumes.a64f316c-5b0e-43c1-b6ef-a5cd1fb197dc:delete'

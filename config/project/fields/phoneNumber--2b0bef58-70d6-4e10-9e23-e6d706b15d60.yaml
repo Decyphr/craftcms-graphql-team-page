@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 22a4cb8c-09d7-4561-adf3-5b4ad79ba412
+handle: phoneNumber
+instructions: 'Your office phone number'
+name: 'Phone Number'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: 'e.g. 555-555-6789'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
